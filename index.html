@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="py-10 container mx-auto max-w-[90%] pt-[82px]">
+        
+
+        <section id="product-section" class="flex">
+            <span id="loading" class="loading loading-spinner loading-lg text-primary mx-auto"></span>
+            <div id="products-list" class="flex flex-wrap gap-5"></div>
+        </section>
+
+        <section id="cart-section" class="mt-10 p-5 bg-gray-100 rounded-lg">
+        </section>
+    </main>
+
+    <section id="total-amount" class="fixed bottom-0 left-0 right-0 bg-green-500 text-white py-4 text-center">
+        Total: $0.00
+    </section>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
